@@ -1,7 +1,7 @@
 package core.basesyntax;
 
 public class Circle extends Figure {
-    private final String name = FigureName.CIRCLE.toString().toLowerCase();
+    private final String name = FigureName.CIRCLE.name().toLowerCase();
     private final double radius;
 
     public Circle(double radius, String color) {

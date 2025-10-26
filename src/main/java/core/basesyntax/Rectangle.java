@@ -1,7 +1,7 @@
 package core.basesyntax;
 
 public class Rectangle extends Figure {
-    private final String name = FigureName.RECTANGLE.toString().toLowerCase();
+    private final String name = FigureName.RECTANGLE.name().toLowerCase();
     private final double width;
     private final double height;
 
